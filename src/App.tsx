@@ -10,7 +10,7 @@ function App() {
       </header>
 
       {/* Hero Section */}
-         {/*
+      {/*
       <div className="main-content py-8 md:py-10">
         <div className="max-w-screen min-w-0 place-items-center w-full p-6 sm:p-20 bg-black text-white grow gap-6 sm:gap-20 grid grid-cols-1 xl:grid-cols-2 relative justify-items-center rounded-2xl sm:rounded-[32px]">
           <div className="grid grid-flow-row grid-cols-1 gap-4 justify-between">
@@ -88,49 +88,12 @@ function App() {
       */}
 
       {/* White Network Section */}
-      <div className="main-content py-8 md:py-10">
-        <div className="max-w-screen min-w-0 grid place-items-center gap-8 w-full px-0 py-0 bg-transparent min-h-[200px]">
-          <div style={{backgroundImage: `url('/assets/banner.png')`, backgroundSize: 'cover', backgroundPosition: 'bottom center'}} className="w-full flex-col sm:flex-row flex rounded-[30px] gap-8 sm:gap-32 items-center py-4 px-10 sm:px-20 sm:py-9 relative justify-between h-full">
-            <div className="flex items-center sm:items-start gap-1 flex-col sm:gap-3">
-              <span className="geist-mono-light text-black text-lg sm:text-xl">CapStone Network</span>
-              <div className="font-semibold geist-mono-extralight text-black text-2xl text-center sm:text-left sm:text-4xl">High-Performance Blockchain for Real-World Assets</div>
-            </div>
-            {/*
-            <button className="w-14 h-14 sm:w-20 sm:h-20 cursor-pointer flex items-center justify-center bg-black rounded-full">
-              <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" viewBox="0 0 80 80" fill="none">
-                <circle cx="40" cy="40" r="40" fill="currentColor"></circle>
-                <mask id="mask0_23_61" style={{maskType:'alpha'}} maskUnits="userSpaceOnUse" x="24" y="24" width="32" height="32">
-                  <rect x="24" y="24" width="32" height="32" fill="#D9D9D9"></rect>
-                </mask>
-                <g mask="url(#mask0_23_61)">
-                  <path d="M42.6667 48L40.8 46.0667L45.5334 41.3333H29.3334V38.6667H45.5334L40.8 33.9333L42.6667 32L50.6667 40L42.6667 48Z" fill="white"></path>
-                </g>
-              </svg>
-            </button>
-            */}
-          </div>
-        </div>
-      </div>
-
-      {/* Built With Section */}
-      <div className="w-full overflow-x-hidden py-8 md:py-10">
-        <div className="max-w-screen min-w-0 grid place-items-center gap-8 w-full px-0 py-0 bg-black">
-          <div style={{backgroundImage: `url('/assets/big-bg.svg')`, backgroundSize: 'cover', backgroundPosition: 'bottom center'}} className="w-full flex flex-col items-center overflow-x-hidden gap-3 sm:gap-6 py-6 sm:py-12 relative">
-            <span className="text-xl font-bold text-white/60">Built With</span>
-            <div className="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:20s] max-w-screen sm:[--gap:64px]">
-              <div className="flex shrink-0 justify-around items-center [gap:var(--gap)] animate-marquee flex-row">
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'10px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/stonex.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'80px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/cb.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'300px',height:'70px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/openzeppelin.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'80px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/blackrock.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'320px',height:'30px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/fireblocks.svg" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'170px',height:'25px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/mexc.svg" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'250px',height:'90px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/web3auth.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'80px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/chainlink.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'80px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/nasdaq.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'80px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/infura.png" /></div>
-                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{width:'200px',height:'80px'}}><img alt="Partner logo" style={{objectFit:'contain'}} src="/assets/sumsub.png" /></div>
-              </div>
+      <div className="w-full py-8 md:py-10">
+        <div className="w-full grid place-items-center gap-8 px-0 py-0 bg-transparent min-h-[200px]">
+          <div style={{ background: 'linear-gradient(135deg, #1a1a1a 0%, #1a1a1a 50%, #1e3a8a 75%, #581c87 100%)', backgroundSize: 'cover', backgroundPosition: 'center' }} className="w-full flex-col sm:flex-row flex gap-8 sm:gap-32 items-center py-6 px-12 sm:px-24 sm:py-12 relative justify-between h-full">
+            <div className="flex items-start gap-3 flex-col px-12 sm:px-20 lg:px-32 xl:px-40">
+              <span className="geist-mono-light text-white text-lg sm:text-xl font-bold">CapStone Network</span>
+              <div className="font-semibold geist-mono-extralight text-white text-2xl sm:text-4xl">High-Performance Blockchain for Real-World Assets</div>
             </div>
           </div>
         </div>
@@ -203,11 +166,11 @@ function App() {
         </div>
       </div>
 
-      {/* Tokenomics Section (美化卡片化) */}
+      {/* Tokenomics Section  */}
       <div className="main-content py-8 md:py-10">
         <div className="text-center mb-2">
           <h2 className="stats-title">Tokenomics</h2>
-          <div className="stats-badge" style={{marginBottom: '2rem'}}>Value Accumulation Mechanisms</div>
+          <div className="stats-badge" style={{ marginBottom: '2rem' }}>Value Accumulation Mechanisms</div>
         </div>
         <div className="stats-cards">
           <div className="stats-card">
@@ -280,9 +243,9 @@ function App() {
           <div className="stats-card">
             <div className="stats-label">Compliance Framework</div>
             <div className="stats-desc">
-              <b>Technical Adaptation:</b> Compliance checks are embedded in the Caps Network blockchain and WhiteBFT consensus, with smart contracts verifying legal documents, KYC/AML info, and asset ownership proofs.<br/>
-              <b>Institutional Custody:</b> Real-world assets are held by licensed custodians, with on-chain proofs binding tokens to real assets.<br/>
-              <b>Zero-Knowledge Proofs:</b> Sensitive compliance data is validated via zk-SNARKs, ensuring privacy while proving regulatory adherence.<br/>
+              <b>Technical Adaptation:</b> Compliance checks are embedded in the Caps Network blockchain and WhiteBFT consensus, with smart contracts verifying legal documents, KYC/AML info, and asset ownership proofs.<br />
+              <b>Institutional Custody:</b> Real-world assets are held by licensed custodians, with on-chain proofs binding tokens to real assets.<br />
+              <b>Zero-Knowledge Proofs:</b> Sensitive compliance data is validated via zk-SNARKs, ensuring privacy while proving regulatory adherence.<br />
               <b>Jurisdictional Compliance:</b> Smart contracts automatically adapt to local regulations based on transaction origin and asset type.
             </div>
           </div>
@@ -301,15 +264,38 @@ function App() {
         </div>
       </div>
 
-      {/* Platform Revenue Section (新增) */}
+      {/* Platform Revenue Section */}
       <div className="main-content py-8 md:py-10">
         <div className="max-w-screen min-w-0 grid place-items-center gap-8 w-full px-0 py-0 bg-transparent">
           <div className="text-center mb-12">
             <h2 className="text-4xl font-bold mb-4">Platform Revenue</h2>
             <p className="text-gray-600 mt-4 max-w-2xl mx-auto">
-              <b>Trading Fees (Spread Capture):</b> CapStone earns a spread of 0.1%-0.3% on tokenized asset trades, significantly lower than traditional brokers.<br/>
+              <b>Trading Fees (Spread Capture):</b> CapStone earns a spread of 0.1%-0.3% on tokenized asset trades, significantly lower than traditional brokers.<br />
               <b>Asset Management Fees:</b> For institutional clients, CapStone provides customized RWA tokenization management, charging annual fees of 0.5%-2% based on asset scale.
             </p>
+          </div>
+        </div>
+      </div>
+
+      {/* Built With Section */}
+      <div className="w-full overflow-x-hidden py-8 md:py-10">
+        <div className="max-w-screen min-w-0 grid place-items-center gap-8 w-full px-0 py-0 bg-black">
+          <div style={{ backgroundImage: `url('/assets/big-bg.svg')`, backgroundSize: 'cover', backgroundPosition: 'bottom center' }} className="w-full flex flex-col items-center overflow-x-hidden gap-3 sm:gap-6 py-6 sm:py-12 relative">
+            <span className="text-xl font-bold text-white/60">Built With</span>
+            <div className="group flex overflow-hidden p-2 [--gap:1rem] [gap:var(--gap)] flex-row [--duration:20s] max-w-screen sm:[--gap:64px]">
+              <div className="flex shrink-0 justify-around items-center [gap:var(--gap)] animate-marquee flex-row">
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '10px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/stonex.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '80px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/cb.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '300px', height: '70px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/openzeppelin.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '80px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/blackrock.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '320px', height: '30px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/fireblocks.svg" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '250px', height: '90px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/web3auth.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '80px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/chainlink.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '80px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/nasdaq.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '80px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/infura.png" /></div>
+                <div className="relative overflow-hidden rounded-xl flex items-center p-4" style={{ width: '200px', height: '80px' }}><img alt="Partner logo" style={{ objectFit: 'contain' }} src="/assets/sumsub.png" /></div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -319,18 +305,18 @@ function App() {
         <div className="max-w-screen min-w-0 grid place-items-center gap-8 w-full px-0 py-0 bg-transparent">
           <div className="text-center">
             <p className="text-gray-600 mb-4">
-              CapStone Finance is building a bridge for the new financial system. By bridging the gap between the traditional 
+              CapStone Finance is building a bridge for the new financial system. By bridging the gap between the traditional
               financial system and DeFi, we believe that we can unlock trillions in liquidity.
             </p>
             <p className="text-gray-600 mb-8">
-              This is just the start. If you have any questions or interest in helping us achieve our mission, 
+              This is just the start. If you have any questions or interest in helping us achieve our mission,
               you can reach out to contact@capstone.fi.
             </p>
-            
+
             <div className="mt-12 pt-8 border-t border-gray-200">
               <p className="text-sm text-gray-500">
-                CapStone Brokers (Pty) Ltd is regulated by the Financial Sector Conduct Authority (FSCA) as a licensed 
-                financial services provider (FSP) under license number 53229. CapStone Brokers is incorporated under company 
+                CapStone Brokers (Pty) Ltd is regulated by the Financial Sector Conduct Authority (FSCA) as a licensed
+                financial services provider (FSP) under license number 53229. CapStone Brokers is incorporated under company
                 registration number 2021/321898/07 and located at 48 Dan Pienaar Circle, Plumstead, Cape Town, Western Cape 7800, South Africa.
               </p>
               <p className="text-sm text-gray-500 mt-4">

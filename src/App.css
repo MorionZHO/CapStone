@@ -1,4 +1,3 @@
-/* 基础样式 */
 body {
   margin: 0;
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -8,7 +7,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* 渐变文字效果 */
 .text-gradient {
   background: linear-gradient(90deg, #6ee7f7 0%, #a7bfff 50%, #fbc2eb 100%);
   -webkit-background-clip: text;
@@ -17,7 +15,6 @@ body {
   text-fill-color: transparent;
 }
 
-/* 滚动动画 */
 @keyframes marquee {
   0% {
     transform: translateX(0);
@@ -31,7 +28,6 @@ body {
   animation: marquee 20s linear infinite;
 }
 
-/* 响应式设计 */
 @media (max-width: 768px) {
   .text-8xl {
     font-size: 3rem;
@@ -39,20 +35,17 @@ body {
   }
 }
 
-/* 按钮悬停效果 */
 button:hover {
   transform: translateY(-1px);
   transition: all 0.2s ease;
 }
 
-/* 卡片悬停效果 */
 .bg-gray-50:hover {
   transform: translateY(-2px);
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
-/* 合作伙伴logo容器 */
 .partner-logo {
   filter: grayscale(100%);
   transition: filter 0.3s ease;
@@ -62,13 +55,11 @@ button:hover {
   filter: grayscale(0%);
 }
 
-/* 确保图片正确显示 */
 img {
   max-width: 100%;
   height: auto;
 }
 
-/* 自定义滚动条 */
 ::-webkit-scrollbar {
   width: 8px;
 }
